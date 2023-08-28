@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="Shortcut icon" href="/JS.COURSE.HTML/images/img-1.png">
+    <title>Tailwind CSS Project-1</title>
+</head>
+
+<body class="bg-black">
+    <div class="home text-white">
+        <div class="flex justify-center items-center space-x-8 my-4" style="position: fixed; z-index: 1; width: 100%;">
+            <nav>
+                <ul class="py-2 px-8 rounded-3xl bg-white"
+                    style="box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;">
+                    <a href="#"
+                        class="px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">About</a>
+                    <a href="#"
+                        class="px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Articles</a>
+                    <a href="#"
+                        class="px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Projects</a>
+                    <a href="#"
+                        class="px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Speaking</a>
+                    <a href="#"
+                        class="px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Uses</a>
+                </ul>
+            </nav>
+            <div class="">
+                <button type="button" aria-label="Toggle dark mode" id="toggle-dark"
+                    class="group rounded-full bg-white/90 px-3 py-2 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition dark:bg-zinc-800/90 dark:ring-white/10 dark:hover:ring-white/20"><svg
+                        viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                        aria-hidden="true"
+                        class="h-6 w-6 fill-zinc-100 stroke-zinc-500 transition group-hover:fill-zinc-200 group-hover:stroke-zinc-700 dark:hidden [@media(prefers-color-scheme:dark)]:fill-teal-50 [@media(prefers-color-scheme:dark)]:stroke-teal-500 [@media(prefers-color-scheme:dark)]:group-hover:fill-teal-50 [@media(prefers-color-scheme:dark)]:group-hover:stroke-teal-600">
+                        <path
+                            d="M8 12.25A4.25 4.25 0 0 1 12.25 8v0a4.25 4.25 0 0 1 4.25 4.25v0a4.25 4.25 0 0 1-4.25 4.25v0A4.25 4.25 0 0 1 8 12.25v0Z">
+                        </path>
+                        <path
+                            d="M12.25 3v1.5M21.5 12.25H20M18.791 18.791l-1.06-1.06M18.791 5.709l-1.06 1.06M12.25 20v1.5M4.5 12.25H3M6.77 6.77 5.709 5.709M6.77 17.73l-1.061 1.061"
+                            fill="none"></path>
+                    </svg><svg viewBox="0 0 24 24" aria-hidden="true"
+                        class="hidden h-6 w-6 fill-zinc-700 stroke-zinc-500 transition dark:block [@media(prefers-color-scheme:dark)]:group-hover:stroke-zinc-400 [@media_not_(prefers-color-scheme:dark)]:fill-teal-400/10 [@media_not_(prefers-color-scheme:dark)]:stroke-teal-500">
+                        <path
+                            d="M17.25 16.22a6.937 6.937 0 0 1-9.47-9.47 7.451 7.451 0 1 0 9.47 9.47ZM12.75 7C17 7 17 2.75 17 2.75S17 7 21.25 7C17 7 17 11.25 17 11.25S17 7 12.75 7Z"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg></button>
+            </div>
+        </div>
+
+        <div class="pt-20 pl-40 auto-rows-max">
+            <div class="logo py-6">
+                <img src="https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar.51a13c67.jpg&w=64&q=75"
+                    alt="logo-img" class="rounded-full cursor-pointer">
+            </div>
+            <h1 class="text-5xl font-bold leading-15 pb-3">Software designer, founder, <br> and
+                amateur astronaut.</h1>
+            <p class="text-zinc-600 mt-3 leading-relaxed">I’m Spencer, a software designer and entrepreneur based in New
+                York City. I’m the founder <br> and CEO of Planetaria, where we develop technologies that empower
+                regular people to <br> explore space on their own terms.</p>
+            <div class="flex space-x-8 pt-4">
+                <i class="fa-brands fa-twitter text-2xl text-zinc-600 cursor-pointer"></i>
+                <i class="fa-brands fa-instagram text-2xl text-zinc-600 cursor-pointer"></i>
+                <i class="fa-brands fa-github text-2xl text-zinc-600 cursor-pointer"></i>
+                <i class="fa-brands fa-linkedin text-2xl text-zinc-600 cursor-pointer"></i>
+            </div>
+        </div>
+
+        <div class="flex justify-center space-x-4 flex-wrap auto-rows-max py-20 w-full overflow-hidden">
+            <img src="https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-1.c5d2141c.jpg&w=384&q=75"
+                alt="" width="240px" class="rounded-3xl">
+            <img src="https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-2.3c6c01cf.jpg&w=384&q=75"
+                alt="" width="240px" class="rounded-3xl">
+            <img src="https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-3.454151b1.jpg&w=384&q=75"
+                alt="" width="240px" class="rounded-3xl">
+            <img src="https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-4.5c6d0ed6.jpg&w=384&q=75"
+                alt="" width="240px" class="rounded-3xl">
+            <img src="https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-5.6c6f2784.jpg&w=384&q=75"
+                alt="" width="240px" class="rounded-3xl">
+        </div>
+
+        <div class="flex justify-around items-center">
+            <div>
+                <div class="mx-8">
+                    <div
+                        class="px-4 py-8 hover:bg-zinc-100 hover:text-slate-900 w-9/12 rounded-2xl ease-in duration-200 cursor-pointer toggle-hover">
+                        <p class="text-zinc-600 pb-2">July 11, 2023</p>
+                        <h4 class="font-bold pb-2">Crafting design system for a multiplanetary future
+                        </h4>
+                        <p class="text-zinc-600 leading-relaxed text-sm text-justify">Most companies try to stay ahead
+                            of
+                            the
+                            curve when it
+                            comes to visual design, but for Planetaria we needed to create a brand that would still
+                            inspire
+                            us 100 years from now when humanity has spread across our entire solar system.</p>
+                        <h3 class="text-emerald-400 pt-2 text-sm">Read articles <i class="fa-solid fa-right-long"></i>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="border pl-4 pt-4 pb-4 mr-8 rounded w-8/12">
+                <div class="flex items-center space-x-4">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h3 class="font-bold">Stay up to date</h3>
+                </div>
+                <p class="text-sm leading-6 text-zinc-600 py-2">Get notified when I publish something new, and <br>
+                    unsubscribe at any time.</p>
+                <form>
+                    <input type="text" placeholder="Email address"
+                        class="border py-2 w-9/12 px-4 rounded focus:border-teal-500 focus:outline-none"
+                        style="box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;"
+                        required>
+
+                    <button type="submit" class="bg-black text-white px-4 py-2 rounded hover:bg-gray-700"
+                        id="toggle-dark-white">Join</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="flex justify-center items-center mb-20">
+            <div>
+                <div class="mx-8">
+                    <div
+                        class="px-4 py-8 hover:bg-zinc-100 hover:text-slate-900 w-9/12 rounded-2xl ease-in duration-200 cursor-pointer toggle-hover">
+                        <p class="text-zinc-600 pb-2">July 11, 2023</p>
+                        <h4 class="font-bold pb-2">Crafting design system for a multiplanetary future
+                        </h4>
+                        <p class="text-zinc-600 leading-relaxed text-sm text-justify">When you’re building a website for
+                            a
+                            company as
+                            ambitious as Planetaria, you need to make an impression. I wanted
+                            people to visit our website and see animations that looked more realistic than reality
+                            itself.
+                        </p>
+                        <h3 class="text-emerald-400 pt-2 text-sm">Read articles <i class="fa-solid fa-right-long"></i>
+                        </h3>
+                    </div>
+                </div>
+                <div class="mx-8">
+                    <div
+                        class="px-4 py-8 hover:bg-zinc-100 hover:text-slate-900 w-9/12 rounded-2xl ease-in duration-200 cursor-pointer toggle-hover">
+                        <p class="text-zinc-600 pb-2">July 11, 2023</p>
+                        <h4 class="font-bold pb-2">Crafting design system for a multiplanetary future
+                        </h4>
+                        <p class="text-zinc-600 leading-relaxed text-sm text-justify">When we released the first version
+                            of
+                            cosmOS last year,
+                            it was written in Go. Go is a wonderful programming
+                            language, but it’s been a while since I’ve seen an article on the front page of Hacker News
+                            about
+                            rewriting some
+                            important tool in Go and I see articles on there about rewriting things in Rust every single
+                            week.
+                        </p>
+                        <h3 class="text-emerald-400 pt-2 text-sm">Read articles <i class="fa-solid fa-right-long"></i>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="border rounded-2xl mr-8 w-11/12">
+                <div class="flex items-center space-x-4 px-6 py-4">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <p class="font-bold">Work</p>
+                </div>
+                <ol>
+                    <li class="flex items-center justify-between space-x-4 mt-4">
+                        <div class="flex items-center space-x-4 px-4">
+                            <img src="https://spotlight.tailwindui.com/_next/static/media/planetaria.ecd81ade.svg"
+                                alt="">
+                            <div>
+                                <h4>Planetaria</h4>
+                                <p class="text-zinc-500 text-sm">CEO</p>
+                            </div>
+                        </div>
+                        <div class="pr-4">
+                            <p class="text-sm text-zinc-500">2019 — Present</p>
+                        </div>
+                    </li>
+                    <li class="flex items-center justify-between space-x-4 mt-4">
+                        <div class="flex items-center space-x-4 px-4">
+                            <img src="https://spotlight.tailwindui.com/_next/static/media/airbnb.b4000690.svg" alt="">
+                            <div>
+                                <h4>Airbnb</h4>
+                                <p class="text-zinc-500 text-sm">Product Designer</p>
+                            </div>
+                        </div>
+                        <div class="pr-4">
+                            <p class="text-sm text-zinc-500">2014 — 2019</p>
+                        </div>
+                    </li>
+                    <li class="flex items-center justify-between space-x-4 mt-4">
+                        <div class="flex items-center space-x-4 px-4">
+                            <img src="https://spotlight.tailwindui.com/_next/static/media/facebook.dd9e7d48.svg" alt="">
+                            <div>
+                                <h4>Facebook</h4>
+                                <p class="text-zinc-500 text-sm">iOS Software Engineer</p>
+                            </div>
+                        </div>
+                        <div class="pr-4">
+                            <p class="text-sm text-zinc-500">2011 — 2014</p>
+                        </div>
+                    </li>
+                    <li class="flex items-center justify-between space-x-4 mt-4 pb-4">
+                        <div class="flex items-center space-x-4 px-4">
+                            <img src="https://spotlight.tailwindui.com/_next/static/media/starbucks.4a5bd050.svg"
+                                alt="">
+                            <div>
+                                <h4>Starbucks</h4>
+                                <p class="text-zinc-500 text-sm">Shift Supervisor</p>
+                            </div>
+                        </div>
+                        <div class="pr-4">
+                            <p class="text-sm text-zinc-500">2008 — 2011</p>
+                        </div>
+                    </li>
+                    <div class="text-center py-4">
+                        <button type="button"
+                            class="bg-gray-100 text-black py-2 px-28 rounded hover:bg-gray-200 ease-in duration-100 ">Download
+                            CV
+                            <i class="fa-solid fa-download"></i></button>
+                    </div>
+                </ol>
+            </div>
+        </div>
+        <hr>
+        <footer class="py-10 mx-8 flex justify-between items-center">
+            <div>
+                <ul class="flex gap-10">
+                    <li><a href="#" class="hover:text-emerald-500">About</a></li>
+                    <li><a href="#" class="hover:text-emerald-500">projects</a></li>
+                    <li><a href="#" class="hover:text-emerald-500">Speaking</a></li>
+                    <li><a href="#" class="hover:text-emerald-500">Uses</a></li>
+                </ul>
+            </div>
+            <div class="flex gap-2 items-center">
+                <i class="fa-sharp fa-regular fa-copyright text-zinc-500"></i>
+                <p class="text-zinc-500">2023 created by <span class="text-emerald-500">Satyam Mishra.</span> All rights
+                    reserved.</p>
+            </div>
+        </footer>
+    </div>
+    <script>
+        let toggleDark = document.querySelector("#toggle-dark");
+        let home = document.querySelector(".home");
+        toggleDark.addEventListener("click", function () {
+            if (document.body.classList.contains("bg-black")) {
+                document.body.classList.toggle("bg-white");
+                home.classList.toggle("text-black");
+            } else {
+                document.body.classList.toggle("bg-white");
+                home.classList.toggle("text-black");
+            };
+        });
+    </script>
+</body>
+
+</html>
